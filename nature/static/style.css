@@ -1,0 +1,129 @@
+/* 
+Hex Codes:
+Blue #87ceeb,
+Green #06a77d,
+Black-green #042a2b
+*/
+
+body{
+    margin: auto;
+    /* background-color: rgba(252, 246, 232, 0.745); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -50px;
+    padding: 150px;
+    padding-bottom: 273px;
+    /* background-position: initial; */
+}
+
+.hclass {
+    font-size: 80px;
+    color: #87ceeb;
+    padding-top: 150px;
+    margin-left: 150px;
+    
+}
+
+span{
+    color: #06a77d;
+}
+
+span:hover{
+    text-shadow: 5px 3px 3px green;
+    transition: 1s;
+}
+
+.info {
+    color: whitesmoke;
+    margin-bottom: 70px;
+    margin-left: 150px;
+}
+
+.button {
+    color: #06a77d;
+    background-color: #87ceeb;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 150px;
+    border: 1px #042a2b solid;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+}
+.button:hover {
+    color: #87ceeb;
+    background-color: #06a77d;
+    box-shadow: 10px 5px 5px #87ceeb;
+    transition: 1s;
+}
+
+.content, .content2 {
+    margin-left: 150px;
+    padding-right: 150px;
+    margin-top: 150px;
+    margin-bottom: 650px;
+}
+
+.data {
+    background-color: #06a77d;
+}
+
+.text {
+    float: left;
+    width: 60%;
+    padding-top: 70px;
+    padding-bottom: 63px;
+    margin-bottom: 20px;
+    background-color: #06a77d;
+    border-top-left-radius: 30%;
+}
+
+.texts{
+    float: right;
+    width:60% ;
+    padding-top: 70px;
+    padding-bottom: 68px;
+    margin-bottom: 20px;
+    background-color: #06a77d;
+    border-top-right-radius: 30%;
+}
+
+.word{
+    color: #042a2b;
+}
+.yt {
+    width: 7%;
+    margin-left: 150px;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 150px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.second {
+    background-image: url(https://images.pexels.com/photos/1533512/pexels-photo-1533512.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    padding-left: 150px;
+}
+#title > p{
+    font-size: 20px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+
